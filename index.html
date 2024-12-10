@@ -1,13 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Clipboard Landing Page</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clipboard Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Outfit:wght@100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  <body class="font-['Bai_Jamjuree']">
+    <main>
+      <section id="hero" class="bg-[url('./images/bg-header-mobile.png')] bg-no-repeat bg-cover bg-center text-center">
+        <!-- container -->
+        <div class="w-11/12 max-w-6xl mx-auto pb-40">
+          <!-- hero-section-content 1 -->
+          <div>
+            <!-- hero image container -->
+            <div class="pt-36 pb-20 sm:pt-40 sm:pb-24 md:pt-44 md:pb-28 lg:pt-48 lg:pb-32">
+              <img class="block mx-auto w-38 sm:w-40 md:w-44 lg:w-48" src="./images/logo.svg" alt="">
+            </div>
+
+            <!-- text content: main-heading -->
+            <article class="leading-loose">
+              <h1 class="pb-4 sm:pb-6 md:pb-8 lg:pb-10 text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-[#4B5866]">A history of everything you copy</h1>
+              <p class="font-medium text-[#A6B1BE] pb-8 sm:text-lg md:text-xl lg:text-3xl sm:pb-10 md:pb-12 lg:pb-14">
+                Clipboard allows you to track and organize everything you copy.
+                Instantly acces your clipboard on all your devices.
+              </p>
+            </article>
+
+            <!-- cta btns -->
+            <div class="flex flex-col gap-5 justify-center items-center sm:flex-row sm:gap-4">
+              <button class="bg-[#2ABCCA] w-full border rounded-3xl  py-3 shadow-md text-white font-semibold sm:w-max sm:px-10 md:px-14 sm:text-lg md:text-xl lg:text-3xl md:hover:bg-[#4CD9E0]">Download for iOS</button>
+              <button class="bg-[#4A69FF] w-full border rounded-3xl py-3 shadow-md text-white font-semibold sm:w-max sm:px-10 md:px-14 sm:text-lg md:text-xl lg:text-3xl md:hover:bg-[#809CFF]">Download for Mac</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
