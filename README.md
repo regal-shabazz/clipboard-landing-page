@@ -7,8 +7,12 @@ This is a project I took from Frontend Mentor to enhance my knowledge of Tailwin
 ### Features Implemented So Far:
 - **Hero Section**:
   - Designed and implemented the hero section of the landing page, which features a clean and simple layout.
-  - The section includes a background image with a subtle overlay, along with a call-to-action (CTA) button.
+  - The section includes a background image, heading text, along with call-to-action (CTA) buttons.
   - Built using Tailwind CSS to create a flexible, responsive design that adapts seamlessly across different screen sizes.
+
+- **Product Overview Section**:
+  - The section includes the descriptive workings of the Clipboard app.
+  - It also features the use of flexbox for layout of certain components in the section.
 
 ### Tools & Technologies:
 - **Tailwind CSS**: Utilized for styling and layout with a focus on utility-first CSS, making the design both responsive and easily customizable.
