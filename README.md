@@ -14,6 +14,12 @@ This is a project I took from Frontend Mentor to enhance my knowledge of Tailwin
   - The section includes the descriptive workings of the Clipboard app.
   - It also features the use of flexbox for layout of certain components in the section.
 
+- **Clients Section**
+
+- **CTA Section**: 
+  - This section is a replica of the hero section but with small font sizes.
+
+
 ### Tools & Technologies:
 - **Tailwind CSS**: Utilized for styling and layout with a focus on utility-first CSS, making the design both responsive and easily customizable.
 - **HTML**: Structured the page with semantic HTML for better accessibility and SEO performance.
@@ -24,7 +30,6 @@ This is a project I took from Frontend Mentor to enhance my knowledge of Tailwin
 - **Figma Designs**: Includes the Figma design file that outlines the visual direction for the landing page. This helps ensure the design is in line with the intended aesthetic and functionality.
 
 ## Next Steps:
-- Continue to build out additional sections, such as "About," "Features," and "CTA" sections.
 - Enhance the responsiveness to handle more breakpoints.
 - Implement JavaScript for additional interactivity once the core design is complete.
 
