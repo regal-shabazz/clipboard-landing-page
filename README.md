@@ -15,10 +15,10 @@ This is a project I took from Frontend Mentor to enhance my knowledge of Tailwin
   - It also features the use of flexbox for layout of certain components in the section.
 
 - **Clients Section**
+  - This section uses flexbox to make the layout responsive.
 
 - **CTA Section**: 
   - This section is a replica of the hero section but with small font sizes.
-
 
 ### Tools & Technologies:
 - **Tailwind CSS**: Utilized for styling and layout with a focus on utility-first CSS, making the design both responsive and easily customizable.
